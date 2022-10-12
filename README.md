@@ -1,5 +1,5 @@
 
-## 컴포넌트 구성
+## 📌컴포넌트 구성
 * components
   * Header
   * Form
@@ -8,16 +8,13 @@
   * Home
   * Read
   
-## 컴포넌트 구성에 대한 이유
+## 📌컴포넌트 구성에 대한 이유
 
 <img width="1044" alt="스크린샷 2022-10-12 오후 11 59 51" src="https://user-images.githubusercontent.com/96973915/195378011-5f8afa3f-24cb-4190-8b4e-185fe6a6a06e.png">
 
-
-리덕스를 사용하게 된다면, dispatch를 어디서 써야하는지, 어느 컴포넌트로 전역변수를 불러와 사용할 것인지 생각해 보았다.
-
-헤더와 폼을 따로 분리해주고 Form 컴포넌트 에서는 addtodo state에 값을 넣어주는 기능단위기 때문에 actionCreator, dispatch를 한번에 사용할 컴포넌트들로 쪼갰다.
-
-아직 작성중
+- dispatch, useSelector 훅을 사용할 위치를 생각해 화면&기능단위로 분할
+- 사진상에 추가하지 못했지만 Router 컴포넌트는 App 컴포넌트에 import 되어있음
+- 최상단 App 컴포넌트를 통해 Router 컴포넌트를 거쳐 url을 가지게 된 home과 Read 컴포넌트 페이지를 확인할 수 있다. home 컴포넌트에는 화면 구성단위의 컴포넌트 Header, Form, CardList를 확인할 수 있다.
 
 
 
