@@ -1,5 +1,7 @@
+# 4Week - TodoList Project 
 
-## 📌컴포넌트 구성
+
+## 📌 컴포넌트 구성
 * components
   * Header
   * Form
@@ -8,7 +10,7 @@
   * Home
   * Read
   
-## 📌컴포넌트 구성에 대한 이유
+## 📌 컴포넌트 구성에 대한 이유
 
 <img width="1044" alt="스크린샷 2022-10-12 오후 11 59 51" src="https://user-images.githubusercontent.com/96973915/195378011-5f8afa3f-24cb-4190-8b4e-185fe6a6a06e.png">
 
